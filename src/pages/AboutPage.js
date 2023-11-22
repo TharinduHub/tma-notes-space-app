@@ -1,5 +1,4 @@
-const AboutPage = () => {
-    return (
+const AboutPage = () => (
         <>
         <h1>About Me</h1>
         <p>
@@ -27,7 +26,6 @@ const AboutPage = () => {
             consequat quam. Vivamus accumsan dui in facilisis aliquet.,
         </p>
     </>
-    );
-}
+);
 
 export default AboutPage;
