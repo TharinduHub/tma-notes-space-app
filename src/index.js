@@ -4,6 +4,25 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCCXmIhPWdTZwecnuwotQtP8_jh9nLuzwU",
+  authDomain: "tma-notes-space.firebaseapp.com",
+  projectId: "tma-notes-space",
+  storageBucket: "tma-notes-space.appspot.com",
+  messagingSenderId: "822842653553",
+  appId: "1:822842653553:web:fadff4ebd59d1b875d14d0"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
